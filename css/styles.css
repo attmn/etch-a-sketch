@@ -1,0 +1,10 @@
+#mainContainer {
+    width: 70%;
+    height: 500px;
+    display: grid;
+    border: 1px solid black;
+}
+
+.squareGrid {
+
+}

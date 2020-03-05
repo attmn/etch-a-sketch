@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <button value="clearGrid" id="clearGrid">Clear Board</button>
+
+    <div id="mainContainer"></div>
+
+    <form id="gridSetup" onsubmit="resizeGrid(); return false">
+      Grid Width: <input id="width" placeholder="16"/>
+      Grid Height: <input id="height" placeholder="16"/>
+      <button type="submit" id="submit" name="submit">Resize</button>
+  </form>
+  </body>
+
+  <script type="text/javascript" src="js/main.js"></script>
+</html>
